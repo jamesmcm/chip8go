@@ -538,7 +538,7 @@ Again, x and V[x] have the same type and size and so it can be difficult to debu
 
 ### Screen buffering
 
-I implemented a screen buffer (that is, AND together the last X screens (1 by default) are ANDed together to avoid flickering in ROMs that update the screen by first clearing sprites in place (i.e. re-drawing over old position) and then drawing the new ones - this is very common in practice.
+I implemented a screen buffer - that is, the last X screens (1 by default) are ORed together to avoid flickering in ROMs that update the screen by first clearing sprites in place (i.e. re-drawing over old position) and then drawing the new ones - this is very common in practice.
 
 I recommend having this as an option, otherwise a lot of ROMs will suffer from flickering sprites.
 
