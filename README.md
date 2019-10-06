@@ -96,6 +96,10 @@ Where pause and quit are special emulator keys.
 
 The [SDL names for the keys](https://wiki.libsdl.org/SDL_Keycode) should be used for assignment, these usually correspond to the normal key label.
 
+# ROMs
+
+The ROMs provided in roms/ are taken from https://github.com/dmatlack/chip8 - all ROMs are in the public domain and provided with attribution.
+
 # CHIP-8 Description
 
 [CHIP-8](https://en.wikipedia.org/wiki/CHIP-8) is an interpreted programming language, created for home computers in the 1970s, so that one ROM could be played on many different systems using the CHIP-8 interpreter and virtual machine.
